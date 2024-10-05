@@ -1,0 +1,147 @@
+
+
+
+
+
+
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+/* header section */
+
+/* css end */
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+
+
+
+  @media (min-width: 320px) and (max-width: 480px) { 
+  /* ********header section*******/
+  header .logo {
+    background: none;
+}
+
+  header .logo .l-line{
+    display: none;
+  }
+
+  header .logo img {
+    width: 100%;
+    padding-left: 0px;
+  }
+
+  header .f-header .fh-1 .nav-link {
+    padding-left: 10px;
+}
+header .f-header .fh-2 span {
+  margin-right: 6px;
+  font-size: 18px;
+}
+  
+/* benner */
+.bennar-section .container {
+  background: url(../img/banner-R-M.png) center center no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
+
+.bennar-section .bennar h4 {
+  padding: 60px 32% 0px;
+  font-size: 20px;
+}
+
+.bennar-section .b-inner .text-area {
+  font-size: 23PX;
+}
+
+.bennar-section .b-inner {
+  top: 70%;
+  left: 50%;
+}
+
+.bennar-section .b-date .text {
+  font-size: 22px;
+}
+
+.bennar-section .b-date {
+  padding: 23% 0% 3% 29%;
+}
+
+.bennar-section .bennar a {
+  padding-left: 28%;
+}
+
+.box div:nth-child(10) {
+  left: 80%;
+}
+
+.box div:nth-child(13) {
+  left: 71%;
+}
+
+/* ***********end****************/
+}
+
+
+
+
+
+
+ 
